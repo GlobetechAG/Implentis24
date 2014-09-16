@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns	= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id			= "ch.globetech.implentis46"
-	version		= "1.0.1">
+	id			= "ch.globetech.implentis24"
+	version		= "1.0.0">
 
-	<name>Dr. Lukesch</name>
+	<name>Praxis Dr. Eggimann</name>
 
 	<description>
-		Praxis-App der Frauenarztpraxis Dr. Lukesch in Herzogenbuchsee / Langenthal
+		App zur Demonstration der Funktionen von www.dokmed-app.ch. Erstellen Sie mit Implentis Ihre eigenen Apps!
 	</description>
 
 	<author href="http://www.implentis.ch">
@@ -15,8 +15,6 @@
 	</author>
 
 	<gap:platform name="ios" />
-
-
 	<gap:platform name="android" />
 
 	<icon src="ios/Homescreen57.png" gap:platform="ios" width="57" height="57" />
