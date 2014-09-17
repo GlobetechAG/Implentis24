@@ -453,10 +453,10 @@ function GetVersion() {
 			newVersion = parseInt (data, 10);
 			Log ("versions: installed="+installedVersion+" new="+newVersion+" current="+currentVersion);
 			if (newVersion > currentVersion) {
-				if (confirm("Es sind neuere Inhalte erhältlich. Sollen Sie heruntergeladen werden?")) {
+				/*if (confirm("Es sind neuere Inhalte erhältlich. Sollen Sie heruntergeladen werden?")) {*/
 					GetData();
 					isLoading = false;
-				}
+				/*}*/
 			} else {
 				if (newVersion > installedVersion) {
 					LoadData();
